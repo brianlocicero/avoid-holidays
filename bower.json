@@ -1,0 +1,23 @@
+{
+  "name": "Avoid Holidays",
+  "version": "0.1.0",
+  "homepage": "https://github.com/brianlocicero/avoid-holidays",
+  "authors": [
+    "Brian Locicero <contact@brianlocicero.com>"
+  ],
+  "description": "A simple calendar picker UI that avoids 2014 holidays",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "bootstrap-calendar": "~0.2.4"
+  }
+}

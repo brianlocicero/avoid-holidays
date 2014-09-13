@@ -1,0 +1,101 @@
+body {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #121212; }
+
+.page-header {
+  margin: 140px 0 50px 0;
+  padding: 0;
+  text-align: center; }
+  .page-header .dateChooser {
+    width: 80%;
+    margin: 0 auto; }
+    .page-header .dateChooser h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 50px; }
+    .page-header .dateChooser p {
+      margin: 40px 0 0 0; }
+    .page-header .dateChooser .input-group {
+      width: 500px;
+      margin: 40px auto 120px auto; }
+    .page-header .dateChooser .btn-default {
+      height: 50px;
+      padding: 6px 45px; }
+    .page-header .dateChooser .form-control {
+      height: 50px;
+      border: 2px solid #a5a5a0;
+      border-radius: 0px; }
+
+.btn-default.chooseDate,
+.btn-primary.saveDate {
+  background: #49ad41;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5YWQ0MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzZDk5MzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #49ad41 0%, #3d9936 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #49ad41), color-stop(100%, #3d9936));
+  background: -webkit-linear-gradient(top, #49ad41 0%, #3d9936 100%);
+  background: -o-linear-gradient(top, #49ad41 0%, #3d9936 100%);
+  background: -ms-linear-gradient(top, #49ad41 0%, #3d9936 100%);
+  background: linear-gradient(to bottom, #49ad41 0%, #3d9936 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49ad41', endColorstr='#3d9936',GradientType=0 );
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  border: none; }
+  .btn-default.chooseDate:hover,
+  .btn-primary.saveDate:hover {
+    background: #3d9936;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNkOTkzNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OWFkNDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #3d9936 0%, #49ad41 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d9936), color-stop(100%, #49ad41));
+    background: -webkit-linear-gradient(top, #3d9936 0%, #49ad41 100%);
+    background: -o-linear-gradient(top, #3d9936 0%, #49ad41 100%);
+    background: -ms-linear-gradient(top, #3d9936 0%, #49ad41 100%);
+    background: linear-gradient(to bottom, #3d9936 0%, #49ad41 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d9936', endColorstr='#49ad41',GradientType=0 ); }
+
+.container.home .row div {
+  padding-top: 65px; }
+.container.home .row div.stars {
+  background: white url("../img/stars.jpg") 15px 0 no-repeat; }
+.container.home .row div.loop {
+  background: white url("../img/loop.jpg") 15px 0 no-repeat; }
+.container.home .row div.priceTags {
+  background: white url("../img/priceTags.jpg") 15px 0 no-repeat; }
+.container.home .row h2 {
+  width: 65%;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 17px 0;
+  border-bottom: 2px dashed #e3e3e3; }
+.container.home .row p {
+  margin: 24px 0 0 0; }
+
+.modal {
+  text-align: center; }
+  .modal .modal-header {
+    border-bottom: none; }
+  .modal .modal-footer {
+    border-top: none; }
+  .modal .datepicker table {
+    width: 350px;
+    height: 260px;
+    background: #ececec;
+    border-collapse: separate;
+    border: 1px solid #cfcfcf; }
+  .modal .datepicker table tr td, .modal .datepicker table tr th {
+    border: 1px solid #cfcfcf;
+    border-radius: 0; }
+  .modal .datepicker table tr td.disabled:hover {
+    background: #edc1bf;
+    border-color: #c85753; }
+  .modal .datepicker table tr td:hover,
+  .modal .datepicker table tr td.active,
+  .modal .datepicker table tr td.active:hover,
+  .modal .datepicker table tr td:active {
+    background: #b2e4ae;
+    border-color: #3d9936;
+    color: #121212; }

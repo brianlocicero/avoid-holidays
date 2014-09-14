@@ -34,13 +34,13 @@ $(document).ready(function() {
   }).on('changeMonth', function(e) {
     //table is rendered AFTER this fires, so timeout necessary
     var littleTimeout = setTimeout(function() {
-      $('td.disabled').qtip({ // Grab some elements to apply the tooltip to
+      $('td.disabled').qtip({
         content: {
             text: 'Weekends & holidays are not valid'
         },
         position: {
-            my: 'bottom center',  // Position my top left...
-            at: 'top center', // at the bottom right of...
+            my: 'bottom center',
+            at: 'top center',
         },
         style: {
           classes: 'qtip-dark'
@@ -50,16 +50,21 @@ $(document).ready(function() {
   });
 
   $('.saveDate').on('click', function() {
-    $("#myModal").modal('hide');
-    $(".form-control").val( selectedDate );
+    //needs a valid date selected
+    if ( $('table td.active').length > 0) {
+      $("#myModal").modal('hide');
+      $(".form-control").val( selectedDate );
+    } else {
+      alert('Please select a valid date');
+    }
   });
 
-  //use single arrows on calendar
+  //override plugin and use single arrows on calendar
   $('table tr th.prev').html('&lsaquo;');
   $('table tr th.next').html('&rsaquo;');
 
 
-  //add tooltips
+  //add tooltips to disabled cells
   $('td.disabled').qtip({ // Grab some elements to apply the tooltip to
     content: {
         text: 'Weekends & holidays are not valid'
